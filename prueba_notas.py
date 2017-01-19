@@ -4,4 +4,9 @@ seguir = input("desea iniciar? 1.si o 2.no?: ")
 n =[]
 while seguir == "1":
 	nota =int(input("ingrese una nota: "))
-	if nota>0 and nota<=100
+	while nota<0 or nota>100:
+		nota=int(input("ingrese una nota valida: "))
+	n.append(nota)
+	seguir = input("desea seguir? 1.si o 2.no?: ")
+
+print(notas_pro(n))
