@@ -20,7 +20,13 @@ class Navegador(object):
 		self.tabs=[]
 
 
-	def mostrar_tabas(self, tabs)
+	def mostrar_tabas(self, tabs):
+		for i in range(0, len(self.tabs)):
+			return self.tabs[i]
+
+
+	def guardar_tabas(self, tabs):
+
 
 
 
