@@ -3,4 +3,8 @@ class Tab(object):
 		self.nombre = nombre
 		self.URL = URL
 
+		def cambiar_URL(self, URL):
+
+
+		def 
 		
